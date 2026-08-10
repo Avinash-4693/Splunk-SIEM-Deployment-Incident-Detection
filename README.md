@@ -198,4 +198,5 @@ hydra -l <TARGET_USER> -P /usr/share/wordlists/rockyou.txt ssh://<TARGET_HOST_IP
 | **Verify Forward Targets** | `sudo /opt/splunkforwarder/bin/splunk list forward-server` | Victim Host (`<TARGET_HOST_IP>`) |
 | **Verify Log Inputs** | `sudo /opt/splunkforwarder/bin/splunk list monitor` | Victim Host (`<TARGET_HOST_IP>`) |
 
-[📸 View Full Resolution Screenshot](./assets/splunk-triggered-alert.png)
+[📸 Hydra Attack Screenshot](https://github.com/Avinash-4693/Splunk-SIEM-Deployment-Incident-Detection/blob/main/Screenshot%202026-08-10%20171025.png)
+[📸 Attack Triggered on splunk Screenshot](https://github.com/Avinash-4693/Splunk-SIEM-Deployment-Incident-Detection/blob/main/Screenshot%202026-08-10%20171041.png)
